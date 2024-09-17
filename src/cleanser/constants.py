@@ -3,7 +3,7 @@ from random import randint
 
 CS_MODEL_FILE = "cs-guide-mixture.stan"
 DC_MODEL_FILE = "dc-guide-mixture.stan"
-MAX_SEED_INT = 4_294_967_295  # 2^32 - 1, the largest seed allowed by STAN
+MAX_SEED_INT = 1000000  # 2^32 - 1, the largest seed allowed by STAN
 
 DEFAULT_CHAINS = 4
 DEFAULT_NORM_LPF = 2
